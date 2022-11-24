@@ -11,8 +11,8 @@ class Simpletxt extends StatelessWidget {
       body: Container(
         child: Column(
           children: <Widget>[
-            const Text('hello world from misgana gali',),
-            const Icon(Icons.abc_rounded,size: 69,color:Colors.grey)
+            const Text('hello world from misgana gali',style: TextStyle(fontSize: 50,fontStyle: FontStyle.italic,color: Colors.cyan),),
+            const Icon(Icons.abc_rounded,size: 69,color:Colors.grey),
           ],
         )
       ),
