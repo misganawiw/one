@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:one/try_widgets/iconss.dart';
 import 'package:one/try_widgets/layouts.dart';
+import 'package:one/try_widgets/navigationing/drawers.dart';
 import 'package:one/try_widgets/simple_text.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
       primarySwatch: Colors.blue,
       ),
-      home: Listing(),
+      home: Drawerign(),
     );
   }
 }
