@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:one/try_widgets/iconss.dart';
 import 'package:one/try_widgets/layouts.dart';
 import 'package:one/try_widgets/navigationing/drawers.dart';
+import 'package:one/try_widgets/navigationing/tryagin.dart';
+import 'package:one/try_widgets/navigationing/tryagin2.dart';
 import 'package:one/try_widgets/simple_text.dart';
 
 void main() {
@@ -24,7 +26,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
       primarySwatch: Colors.blue,
       ),
-      home: Drawerign(),
+      home: Tryagin2(),
       
     );
   }

@@ -11,7 +11,7 @@ class _Screen2State extends State<Screen2> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:  Center(
+      child:  Center( 
         child:  Text('screen 2',style: TextStyle(fontSize: 40),),
       )
     );

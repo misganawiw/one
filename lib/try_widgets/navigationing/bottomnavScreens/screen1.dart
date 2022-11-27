@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 
 
 class Screen1 extends StatefulWidget {
@@ -9,12 +10,68 @@ class Screen1 extends StatefulWidget {
 }
 
 class _Screen1State extends State<Screen1> {
+
+
+List<String> xylem = [
+    "jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga","jimma",
+    "diredewa",
+    "addisabeba",
+    "adama",
+    "afar",
+    "jijiga",
+  ];
   @override
   Widget build(BuildContext context) {
     return Container(
-       child:Center(
-child:  Text('screen 1',style: TextStyle(fontSize: 40),),
-      )
+      
+    
+       
+     child:
+      ListView.builder(
+      //scrollDirection: Axis.horizontal,
+      itemCount:xylem.length,
+      itemBuilder:((context, index) {
+        return ListTile(
+          minLeadingWidth: 20,
+          leading: CircleAvatar(child: Text(xylem[index][0])),
+        );
+      }) 
+     
+     
+     ), 
+
+      
+    
     );
   }
 }
